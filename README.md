@@ -1110,6 +1110,8 @@ While this guide explains the *what*, *why* and *how*, I find it helpful to see 
 ### Provide a Unique Directive Prefix
 ###### [Style [Y073](#style-y073)]
 
+  - For all Portal-ui directives use the at- namespace
+
   - Provide a short, unique and descriptive directive prefix such as `acmeSalesCustomerInfo` which is declared in HTML as `acme-sales-customer-info`.
 
     *Why?*: The unique short prefix identifies the directive's context and origin. For example a prefix of `cc-` may indicate that the directive is part of a CodeCamper app while `acme-` may indicate a directive for the Acme company. 
